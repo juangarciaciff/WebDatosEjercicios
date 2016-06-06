@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<rdf:RDF 
+<rdf:RDF   
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"  
 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 xml:base="http://example.org/schemas/mytweeter"
@@ -24,9 +24,12 @@ xmlns="http://example.org/schemas/mytweeter#">
 	</rdfs:Property>
 
 	<Tweet rdf:about="#tweet111">
+		<creator rdf:resource="#user201"></creator>
+		<content>Un tweet</content>
 	</Tweet>
 
 	<User rdf:about="#user201">
+		<userAccount>@pepe</userAccount>
 	</User>
 
 </rdf:RDF>

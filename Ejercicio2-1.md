@@ -51,12 +51,9 @@
 		</rdf:Description>
 
 		<Tweet rdf:about="#tweet111">
-			<creator rdf:resource="#user201"></creator>
-			<content>Difficile est tenere quae acceperis nis exerceas</content>
 		</Tweet>
 
 		<User rdf:about="#user201">
-			<userAccount>user201@gmail.com</userAccount>
 		</User>
 
 	</rdf:RDF>
@@ -93,12 +90,9 @@
 		</rdfs:Property>
 	
 		<Tweet rdf:about="#tweet111">
-			<creator rdf:resource="#user201"></creator>
-			<content>Difficile est tenere quae acceperis nis exerceas</content>
 		</Tweet>
 
 		<User rdf:about="#user201">
-			<userAccount>user201@gmail.com</userAccount>
 		</User>
 
 	</rdf:RDF>
@@ -132,12 +126,9 @@
 		</rdfs:Property>
 
 		<Tweet rdf:about="#tweet111">
-			<creator rdf:resource="#user201"></creator>
-			<content>Difficile est tenere quae acceperis nis exerceas</content>
 		</Tweet>
 
 		<User rdf:about="#user201">
-			<userAccount>user201@gmail.com</userAccount>
 		</User>
 
 	</rdf:RDF>
