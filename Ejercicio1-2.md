@@ -2,9 +2,9 @@
 # Ejercicio 1-1
 
 - Autor: Juan A. García Cuevas
-- Fecha: 05/06/2016
+- Fecha: 06/06/2016
 
-### Dado los datos que tenemos en Ejercicio2_data.xml
+### Dado los datos que tenemos en Ejercicio1_2_data.xlsx:
 ```xml
 	<?xml version="1.0" encoding="UTF-8"?>
 	
@@ -40,7 +40,7 @@
 	</rdf:RDF>
 ```
 
-### Crear un modelo RDF con serialización RDF/XML donde aparezcan los siguientes recursos descritos: “fb101”, “tweet111”, “user201”, “user211”, “p301” con su información asociada.
+### Crear un modelo RDF con serialización RDF/XML donde aparezcan los siguientes recursos descritos: “fb101”, “tweet111”, “user201”, “user211”, “p301” con su información asociada:
 
 >NOTA: Output: fichero "Ejercicio1_2.xml"
 
@@ -83,7 +83,7 @@
 	<rdf:Description rdf:about="http://www.example.com/myprimerrdf#p301">
 		<myNameSpace:keywords>un</myNameSpace:keywords>
 		<myNameSpace:contiene rdf:resource="http://www.example.com/myprimerrdf#fb101"/>
-		<myNameSpace:contiene  rdf:resource="http://www.example.com/myprimerrdf#tweet111"/>
+		<myNameSpace:contiene rdf:resource="http://www.example.com/myprimerrdf#tweet111"/>
 	</rdf:Description>
 
     </rdf:RDF>
