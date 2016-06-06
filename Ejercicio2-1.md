@@ -14,6 +14,8 @@
     - “tweet111” de la claseTweet
     - “user201” de la clase User
 
+>NOTA: incluyo tres versiones del fichero.
+
 #### Versión 1:
 ```xml
     <?xml version="1.0" encoding="UTF-8"?>
