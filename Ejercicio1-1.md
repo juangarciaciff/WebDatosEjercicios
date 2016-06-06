@@ -2,7 +2,7 @@
 # Ejercicio 1-1
 
 - Autor: Juan A. García Cuevas
-- Fecha: 05/06/2016
+- Fecha: 06/06/2016
 
 ### Dado el RDF documento del ejercicio 1, identificar los siguientes elementos: 
 
@@ -62,17 +62,24 @@ xmlns:region="http://www.country-regions.fake/">
 ```
 
 ### Vocabularios reutilizados: URI y namespace: 
-```
-    http://purl.org/dc/elements/1.1/
-    http://www.country-regions.fake/
-```
 
+- Vocabulario: rdf
+    - Namespace: xmlns:rdf
+    - URI: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+- Vocabulario: dc
+    - Namespace: xmlns:dc
+    - URI: <http://purl.org/dc/elements/1.1/>
+
+
+>NOTA: la URI (http://www.country-regions.fake/) del vocabulario "region" no existe (namespace: xmlns:region), por lo que considero que no se trata de un vocabulario reutilizado.
+    
 ### Tag utilizado para describir el documento: 
 ```
-    about
+    RDF
 ```
 
 ### Tag RDF utlizado para describir el recurso: 
 ```
-    resource
+    Description
 ```
