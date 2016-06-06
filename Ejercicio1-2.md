@@ -11,41 +11,6 @@
 
 ### Crear un modelo RDF con serialización RDF/XML donde aparezcan los siguientes recursos descritos: “fb101”, “tweet111”, “user201”, “user211”, “p301” con su información asociada:
 
-```xml
-	<?xml version="1.0" encoding="UTF-8"?>
-	
-	<rdf:RDF
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:dcterms="http://purl.org/dc/terms/"
-    xmlns:sioc="http://rdfs.org/sioc/spec/"
-    xmlns:myNameSpace="http://www.example.com/myprimerrdf#"
-    xml:base="http://www.example.com/myprimerrdf"
-    xmlsn:="http://www.example.com/myprimerrdf#">
-	
-	<rdf:Description rdf:about="">
-	....// Descripciones de fb101
-	</rdf:Description>
-	
-	<rdf:Description rdf:about="">
-	....// Descripciones de tweet111
-	</rdf:Description>
-	
-	<rdf:Description rdf:about="">
-	....// Descripciones de user201
-	</rdf:Description>
-	
-	<rdf:Description rdf:about="">
-	....// Descripciones de user211
-	</rdf:Description>
-	
-	<rdf:Description rdf:about="">
-	....// Descripciones de p301
-	</rdf:Description>
-	
-	</rdf:RDF>
-```
-
 >NOTA: Output: fichero "Ejercicio1_2.xml"
 
 ```xml
