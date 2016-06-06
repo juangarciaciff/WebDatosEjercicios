@@ -1,12 +1,13 @@
 # Web de Datos 
-# Ejercicio 2-1
+# Ejercicio 1-2
 
 - Autor: Juan A. García Cuevas
 - Fecha: 06/06/2016
 
 ### Dado los datos que tenemos en Ejercicio1_2_data.xlsx:
 
-[Ejercicio1_2_data.xlsx]<images/Ejercicio1_2_data.xlsx.PNG>
+![Ejercicio1_2_data.xlsx](images/Ejercicio1_2_data.xlsx.PNG)
+
 
 ### Crear un modelo RDF con serialización RDF/XML donde aparezcan los siguientes recursos descritos: “fb101”, “tweet111”, “user201”, “user211”, “p301” con su información asociada:
 
