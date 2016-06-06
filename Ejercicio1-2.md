@@ -11,8 +11,6 @@
 
 ### Crear un modelo RDF con serialización RDF/XML donde aparezcan los siguientes recursos descritos: “fb101”, “tweet111”, “user201”, “user211”, “p301” con su información asociada:
 
->NOTA: Output: fichero "Ejercicio1_2.xml"
-
 ```xml
     <?xml version="1.0" encoding="UTF-8"?>
 
