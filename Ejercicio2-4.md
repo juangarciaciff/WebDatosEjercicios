@@ -48,7 +48,7 @@
 - [Fichero de ontología en formato RDF](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/MyOntologyRDF.owl)
 - [Fichero de ontología en formato Turtle](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/MyOntologyTURTLE.owl)
 
-**Imagen de la alicación Protégé:**
+**Imagen de la aplicación Protégé:**
 
 ![Protege](images/Protege.PNG)
 
