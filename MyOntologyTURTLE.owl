@@ -1,0 +1,224 @@
+@prefix : <http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5> .
+
+<http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#creador
+
+:creador rdf:type owl:ObjectProperty ;
+         
+         rdfs:domain :Post ;
+         
+         rdfs:range :Usuario .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#followers
+
+:followers rdf:type owl:ObjectProperty ;
+           
+           rdfs:domain :Usuario ;
+           
+           rdfs:range :UsuarioTwitter .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#friends
+
+:friends rdf:type owl:ObjectProperty ;
+         
+         rdfs:domain :Usuario ;
+         
+         rdfs:range :UsuarioFacebook .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#contenido
+
+:contenido rdf:type owl:DatatypeProperty ;
+           
+           rdfs:domain :Post ;
+           
+           rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#fechacreacion
+
+:fechacreacion rdf:type owl:DatatypeProperty ;
+               
+               rdfs:domain :Post ;
+               
+               rdfs:range xsd:dateTime .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#likes
+
+:likes rdf:type owl:DatatypeProperty ;
+       
+       rdfs:domain :Publicacion ;
+       
+       rdfs:range xsd:integer .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#retweets
+
+:retweets rdf:type owl:DatatypeProperty ;
+          
+          rdfs:domain :Tweet ;
+          
+          rdfs:range xsd:integer .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#useraccount
+
+:useraccount rdf:type owl:DatatypeProperty ;
+             
+             rdfs:domain :Usuario ;
+             
+             rdfs:range xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#Post
+
+:Post rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#Publicacion
+
+:Publicacion rdf:type owl:Class ;
+             
+             rdfs:subClassOf :Post .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#Tweet
+
+:Tweet rdf:type owl:Class ;
+       
+       rdfs:subClassOf :Post .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#Usuario
+
+:Usuario rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#UsuarioFacebook
+
+:UsuarioFacebook rdf:type owl:Class ;
+                 
+                 rdfs:subClassOf :Usuario .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#UsuarioTwitter
+
+:UsuarioTwitter rdf:type owl:Class ;
+                
+                rdfs:subClassOf :Usuario .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#fb101
+
+:fb101 rdf:type owl:NamedIndividual ;
+       
+       :likes "123" ;
+       
+       :fechacreacion "12/02/2015" ;
+       
+       :contenido "Un post sobre Joaquin Sabina" ;
+       
+       :creador :user201 .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#tweet111
+
+:tweet111 rdf:type owl:NamedIndividual ;
+          
+          :contenido "Un tweet de Joaquín Sabina" ;
+          
+          :fechacreacion "12/03/2015" ;
+          
+          :creador :user211 .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#user201
+
+:user201 rdf:type owl:NamedIndividual ;
+         
+         :useraccount "er_Antonio" .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#user202
+
+:user202 rdf:type owl:NamedIndividual ;
+         
+         :useraccount "pecosa" ;
+         
+         :friends :user201 .
+
+
+
+###  http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-5#user211
+
+:user211 rdf:type owl:NamedIndividual ;
+         
+         :useraccount "@pepe" .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+
