@@ -30,11 +30,15 @@ El motor de búsqueda permite explotar el modelo de datos (la ontología BNE) pa
 
 La herramienta marimba enriquece los datos de origen con datos externos a través de enlaces generados durante el proceso de enlazado. Entre estos datos están los procedentes de:
 
-- Instituto Geográfico Nacional (GeoLinkedData), 
-- Agencia Estatal de Meteorología (Aemet), 
-- Grupo Prisa Digital (El Viajero), 
-- Consorcio Regional de Transportes de Madrid y Fundeu (Terminesp). 
-- DBpedia en español (proyecto para la extracción de datos de Wikipedia con el propósito de crear una versión en web semántica).
+- Instituto Geográfico Nacional (GeoLinkedData)
+- Agencia Estatal de Meteorología (Aemet)
+- Grupo Prisa Digital (El Viajero)
+- Consorcio Regional de Transportes de Madrid y Fundeu (Terminesp)
+- DBpedia en español
+- Bibliothèque nationale de France
+- British Library
+- Deutsche Nationalbibliothek
+- Library of Congress
 
 ## Pros y contras frente a una web estándar
 
