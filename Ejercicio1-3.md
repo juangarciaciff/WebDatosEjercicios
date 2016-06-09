@@ -28,7 +28,9 @@ El motor de búsqueda permite explotar el modelo de datos (la ontología BNE) pa
 
 ## Dataset con los que se enriquece
 
-La herramienta marimba enriquece los datos de origen con datos externos a través de enlaces generados durante el proceso de enlazado. Entre estos datos están los procedentes de:
+La herramienta marimba enriquece los datos de origen con datos externos a través de enlaces generados durante el proceso de enlazado.
+
+Algunos de los datos enlazados proceden de:
 
 - Instituto Geográfico Nacional (GeoLinkedData)
 - Agencia Estatal de Meteorología (Aemet)
