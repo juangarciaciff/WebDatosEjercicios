@@ -45,8 +45,9 @@
 
 **Ficheros:**
 
-- [Fichero de ontología en formato RDF](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/MyOntologyRDF.owl)
-- [Fichero de ontología en formato Turtle](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/MyOntologyTURTLE.owl)
+- [Ejercicio2_4.owl](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/datos/Ejercicio2_4.owl)
+
+- [Ejercicio2_4.rdf](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/datos/Ejercicio2_4.rdf)
 
 **Imagen de la aplicación Protégé:**
 
