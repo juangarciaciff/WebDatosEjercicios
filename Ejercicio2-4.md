@@ -51,5 +51,5 @@
 
 **Imagen de la aplicación Protégé:**
 
-![Protege](images/Protege.PNG)
+![Ejercicio2_4](images/Ejercicio2_4.PNG)
 

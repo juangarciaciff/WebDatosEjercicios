@@ -1,5 +1,5 @@
 # Web de Datos 
-# Ejercicio 2-4
+# Ejercicio 2-5
 
 - Autor: Juan A. García Cuevas
 - Fecha: 19/06/2016
@@ -29,7 +29,7 @@
 
 - [Ejercicio2_5.owl](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/datos/Ejercicio2_5.owl)
 
-- [Ejercicio2_5.rdf](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/datos/Ejercicio2_65rdf)
+- [Ejercicio2_5.rdf](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/datos/Ejercicio2_5rdf)
 
 **Imagen de la aplicación Protégé:**
 
