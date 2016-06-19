@@ -231,7 +231,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Publicacion"/>
         <creator rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user201"/>
         <contenido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Un post sobre Joaquín Sabina</contenido>
-        <fechacreacion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/02/2015</fechacreacion>
+        <fechacreacion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-12T23:34:45</fechacreacion>
         <likes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">123</likes>
     </owl:NamedIndividual>
     
@@ -263,7 +263,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Tweet"/>
         <creator rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user211"/>
         <contenido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Un tweet de Joaquín Sabina</contenido>
-        <fechacreacion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/03/2015</fechacreacion>
+        <fechacreacion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-12T23:34:45</fechacreacion>
     </owl:NamedIndividual>
     
 

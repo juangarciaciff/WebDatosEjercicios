@@ -186,7 +186,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#fechacreacion"/>
         <NamedIndividual IRI="#fb101"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">12/02/2015</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2015-02-12T23:34:45</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#likes"/>
@@ -206,7 +206,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#fechacreacion"/>
         <NamedIndividual IRI="#tweet111"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">12/03/2015</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-12T23:34:45</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#useraccount"/>
