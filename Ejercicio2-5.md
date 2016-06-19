@@ -4,7 +4,7 @@
 - Autor: Juan A. García Cuevas
 - Fecha: 19/06/2016
 
-**Partiendo del ejercicio 2_4, aadir el siguiente conocimiento**:
+**Partiendo del ejercicio 2_4, añadir el siguiente conocimiento**:
 
 **Crear las siguientes clases y subclases**:
 

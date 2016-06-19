@@ -1,299 +1,317 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#"
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#creator -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#creator">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Post"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Usuario"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#entidad -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#entidad">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Canal"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Entidad"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#followers -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#followers">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Usuario"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#UsuarioTwitter"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#friends -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#friends">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Usuario"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#UsuarioFacebook"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#post -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#post">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Canal"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Post"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#contenido -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#contenido">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Post"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#fechacreacion -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#fechacreacion">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Post"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#likes -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#likes">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Publicacion"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#retwetts -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#retwetts">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Tweet"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#useraccount -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#useraccount">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Usuario"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#username -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#username">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Persona"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Canal -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Canal"/>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Empresa -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Empresa">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Entidad"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Entidad -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Entidad"/>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Persona -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Persona">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Entidad"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Post -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Post"/>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Publicacion -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Publicacion">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Post"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Tweet -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Tweet">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Post"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Usuario -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Usuario"/>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#UsuarioFacebook -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#UsuarioFacebook">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Usuario"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#UsuarioTwitter -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#UsuarioTwitter">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Usuario"/>
-    </owl:Class>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#fb101 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#fb101">
-        <rdf:type rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Publicacion"/>
-        <creator rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user201"/>
-        <contenido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Un post sobre Joaquín Sabina</contenido>
-        <fechacreacion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/02/2015</fechacreacion>
-        <likes rdf:datatype="http://www.w3.org/2001/XMLSchema#int">123</likes>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#jsabina -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#jsabina">
-        <rdf:type rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Persona"/>
-        <username rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joaquín Sabina</username>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#p301 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#p301">
-        <rdf:type rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Canal"/>
-        <entidad rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#jsabina"/>
-        <post rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#fb101"/>
-        <post rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#tweet111"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#tweet111 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#tweet111">
-        <rdf:type rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#Tweet"/>
-        <creator rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user211"/>
-        <contenido rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Un tweet de Joaquín Sabina</contenido>
-        <fechacreacion rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">12/03/2015</fechacreacion>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user201 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user201">
-        <rdf:type rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#UsuarioFacebook"/>
-        <useraccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">er_antonio</useraccount>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user202 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user202">
-        <rdf:type rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#UsuarioFacebook"/>
-        <friends rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user201"/>
-        <useraccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pecosa</useraccount>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user211 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#user211">
-        <rdf:type rdf:resource="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#UsuarioTwitter"/>
-        <useraccount rdf:datatype="http://www.w3.org/2001/XMLSchema#string">@pepe</useraccount>
-    </owl:NamedIndividual>
-</rdf:RDF>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14">
+    <Prefix name="" IRI="http://www.semanticweb.org/juan/ontologies/2016/5/untitled-ontology-14#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <DataProperty IRI="#likes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsuarioTwitter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#useraccount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#p301"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Usuario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#user202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#post"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Post"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#friends"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fechacreacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entidad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jsabina"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#retwetts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fb101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tweet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#followers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#creator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tweet111"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#user211"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#user201"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contenido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UsuarioFacebook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Empresa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Publicacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persona"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#username"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#entidad"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Empresa"/>
+        <Class IRI="#Entidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persona"/>
+        <Class IRI="#Entidad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Publicacion"/>
+        <Class IRI="#Post"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tweet"/>
+        <Class IRI="#Post"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsuarioFacebook"/>
+        <Class IRI="#Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UsuarioTwitter"/>
+        <Class IRI="#Usuario"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Publicacion"/>
+        <NamedIndividual IRI="#fb101"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Persona"/>
+        <NamedIndividual IRI="#jsabina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Canal"/>
+        <NamedIndividual IRI="#p301"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tweet"/>
+        <NamedIndividual IRI="#tweet111"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UsuarioFacebook"/>
+        <NamedIndividual IRI="#user201"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UsuarioFacebook"/>
+        <NamedIndividual IRI="#user202"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#UsuarioTwitter"/>
+        <NamedIndividual IRI="#user211"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creator"/>
+        <NamedIndividual IRI="#fb101"/>
+        <NamedIndividual IRI="#user201"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#entidad"/>
+        <NamedIndividual IRI="#p301"/>
+        <NamedIndividual IRI="#jsabina"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#post"/>
+        <NamedIndividual IRI="#p301"/>
+        <NamedIndividual IRI="#fb101"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#post"/>
+        <NamedIndividual IRI="#p301"/>
+        <NamedIndividual IRI="#tweet111"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#creator"/>
+        <NamedIndividual IRI="#tweet111"/>
+        <NamedIndividual IRI="#user211"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#friends"/>
+        <NamedIndividual IRI="#user202"/>
+        <NamedIndividual IRI="#user201"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenido"/>
+        <NamedIndividual IRI="#fb101"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Un post sobre Joaquín Sabina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechacreacion"/>
+        <NamedIndividual IRI="#fb101"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">12/02/2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#likes"/>
+        <NamedIndividual IRI="#fb101"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#username"/>
+        <NamedIndividual IRI="#jsabina"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Joaquín Sabina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contenido"/>
+        <NamedIndividual IRI="#tweet111"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Un tweet de Joaquín Sabina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#fechacreacion"/>
+        <NamedIndividual IRI="#tweet111"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">12/03/2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#useraccount"/>
+        <NamedIndividual IRI="#user201"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">er_antonio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#useraccount"/>
+        <NamedIndividual IRI="#user202"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pecosa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#useraccount"/>
+        <NamedIndividual IRI="#user211"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">@pepe</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#creator"/>
+        <Class IRI="#Post"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#entidad"/>
+        <Class IRI="#Canal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#followers"/>
+        <Class IRI="#Usuario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#friends"/>
+        <Class IRI="#Usuario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#post"/>
+        <Class IRI="#Canal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#creator"/>
+        <Class IRI="#Usuario"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#entidad"/>
+        <Class IRI="#Entidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#followers"/>
+        <Class IRI="#UsuarioTwitter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#friends"/>
+        <Class IRI="#UsuarioFacebook"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#post"/>
+        <Class IRI="#Post"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contenido"/>
+        <Class IRI="#Post"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fechacreacion"/>
+        <Class IRI="#Post"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#likes"/>
+        <Class IRI="#Publicacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#retwetts"/>
+        <Class IRI="#Tweet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#useraccount"/>
+        <Class IRI="#Usuario"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#username"/>
+        <Class IRI="#Persona"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#contenido"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#fechacreacion"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#likes"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#retwetts"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#useraccount"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#username"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
 
 
 
