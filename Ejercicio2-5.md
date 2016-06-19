@@ -29,7 +29,7 @@
 
 - [Ejercicio2_5.owl](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/datos/Ejercicio2_5.owl)
 
-- [Ejercicio2_5.rdf](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/datos/Ejercicio2_5rdf)
+- [Ejercicio2_5.rdf](https://github.com/juangarciaciff/WebDatosEjercicios/blob/master/datos/Ejercicio2_5.rdf)
 
 **Imagen de la aplicación Protégé:**
 
