@@ -11,7 +11,7 @@ Dame aquellas personas que tengan nombre y email (grafo personas)
     PREFIX foaf:<http://xmlns.com/foaf/0.1/>
 
     SELECT ?s ?nombre ?email
-    WHERE {  
+    WHERE {
         ?s foaf:name ?nombre.
         ?s foaf:mbox ?email
     }
