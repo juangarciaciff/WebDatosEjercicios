@@ -2,7 +2,7 @@
 # Web de Datos - Ejercicio 4-6
 ***
 - Autor: Juan A. García Cuevas
-- Fecha: 06/07/2016
+- Fecha: 02/07/2016
 ***
 
 ## Ejercicio 4_6:
