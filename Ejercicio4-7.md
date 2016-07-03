@@ -2,7 +2,7 @@
 # Web de Datos - Ejercicio 4-7
 ***
 - Autor: Juan A. García Cuevas
-- Fecha: 02/07/2016
+- Fecha: 03/07/2016
 ***
 
 ## Ejercicio 4_7:
@@ -26,7 +26,4 @@
     	  ?film g1:duration ?duracion}
     }
 ```
-
-![Resultado ejercicio 4_7](images/ResultadoEjercicio4_7.png)
-
 ***
