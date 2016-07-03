@@ -1,5 +1,5 @@
 ***
-# Web de Datos - SPARQL Básico
+# Web de Datos - SPARQL - Ejercicios 4-1 a 4-5 (básico)
 ***
 - Autor: Juan A. García Cuevas
 - Fecha: 02/07/2016

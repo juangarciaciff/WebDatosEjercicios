@@ -1,5 +1,5 @@
 ***
-# Web de Datos - Ejercicio 4-7
+# Web de Datos - SPARQL - Ejercicio 4-7 (avanzado)
 ***
 - Autor: Juan A. García Cuevas
 - Fecha: 03/07/2016

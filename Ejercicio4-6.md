@@ -1,5 +1,5 @@
 ***
-# Web de Datos - Ejercicio 4-6
+# Web de Datos - SPARQL - Ejercicio 4-6 (medio)
 ***
 - Autor: Juan A. García Cuevas
 - Fecha: 02/07/2016
