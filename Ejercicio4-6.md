@@ -3,6 +3,7 @@
 ***
 - Autor: Juan A. García Cuevas
 - Fecha: 02/07/2016
+
 ***
 
 ## Ejercicio 4_6:
@@ -11,6 +12,7 @@
 
 ```sparql
     PREFIX ex2:<http://example.org/book/>
+
     SELECT ?libro ?precio
     WHERE {
         ?libro ex2:price ?precio

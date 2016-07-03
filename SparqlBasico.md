@@ -3,6 +3,7 @@
 ***
 - Autor: Juan A. García Cuevas
 - Fecha: 02/07/2016
+
 ***
 
 - En una ventana del navegador web:
@@ -131,6 +132,7 @@
 
 ```sparql
         PREFIX g1: <http://example.org/film/g1/>
+
         CLEAR GRAPH <http://example.org/film/g1>
 ```
 
